@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "917623804138",
+    "project_id": "teleport-ef597",
+    "storage_bucket": "teleport-ef597.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917623804138:android:aa545948e3d7dd1291c793",
+        "android_client_info": {
+          "package_name": "dev.alikara.teleport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917623804138-bb86d3tq95uusvchsuqg7g94ttu1emgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.alikara.teleport",
+            "certificate_hash": "2bfedb327a159de46897aed9eee38017a9adc878"
+          }
+        },
+        {
+          "client_id": "917623804138-5h2d1l2gh88er6oakqvksrcl6fie9ocs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB15_vZhpie1zxx-e_hPkuGsoyL4j37z3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917623804138-5h2d1l2gh88er6oakqvksrcl6fie9ocs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "917623804138-ghf9s01bnmmgo3snvotvd11n1sfcdk2k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.alikara.teleport"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
