@@ -2,9 +2,10 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:teleport/screens/home_screen.dart';
 import 'package:teleport/screens/login_screen.dart';
+import 'package:teleport/screens/my_homepage.dart';
 import 'package:teleport/services/signin_with_google.dart';
 import 'package:teleport/utils/colors.dart';
-  
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         '/login': (context) => LoginScreen(),
-        '/home': (context) => HomeScreen()
+        '/home': (context) => const HomeScreen()
       },
       // initialRoute: '/login',
       home: StreamBuilder(
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
             return const Center(child: CircularProgressIndicator.adaptive());
           }
           if (snapshot.hasData) {
-            return const HomeScreen();
+            return MyHomePage();
           }
 
           return LoginScreen();
